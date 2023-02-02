@@ -1,2 +1,2 @@
 # AbstractFactoryPattern
-Abstract Factory Pattern in C#
+Abstract Factory Pattern Implementation in C#
