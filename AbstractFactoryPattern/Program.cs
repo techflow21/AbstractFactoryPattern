@@ -85,6 +85,10 @@
             customer.Purchase();
             order.Process();
 
+
+            Console.WriteLine();
+
+
             factory = new PremiumFactory();
             customer = factory.GetCustomer();
             order = factory.GetOrder();
@@ -95,3 +99,4 @@
     }
 
 }
+
