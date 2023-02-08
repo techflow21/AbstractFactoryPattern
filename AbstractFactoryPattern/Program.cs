@@ -16,6 +16,7 @@
         IOrder GetOrder();
     }
 
+     
     class RegularCustomer : ICustomer
     {
         public void Purchase()
@@ -23,6 +24,7 @@
             Console.WriteLine("Regular customer made a purchase");
         }
     }
+
 
     class PremiumCustomer : ICustomer
     {
@@ -40,6 +42,7 @@
         }
     }
 
+
     class PremiumOrder : IOrder
     {
         public void Process()
@@ -47,6 +50,7 @@
             Console.WriteLine("Premium order is processed");
         }
     }
+
 
     class RegularFactory : IFactory
     {
