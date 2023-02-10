@@ -97,7 +97,6 @@
             factory = new PremiumFactory();
             customer = factory.GetCustomer();
             order = factory.GetOrder();
-
             customer.Purchase();
             order.Process();
         }
